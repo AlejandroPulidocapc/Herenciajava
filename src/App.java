@@ -16,6 +16,8 @@ public class App {
         System.out.println(moto.toString());
         System.out.println(moto2.toString());
 
+        System.out.println("rodando en mi moto");
+
         System.out.println("********************");
 
         Avion avion = new Avion("Rojo", " BMW ", "200CC", 2);
@@ -27,6 +29,7 @@ public class App {
 
         System.out.println(avion.toString());
         System.out.println(avion2.toString());
+        System.out.println("volando en mi avion");
 
         System.out.println("**********************");
 
@@ -38,10 +41,7 @@ public class App {
         yate2.setNumeroMotores(2);
         System.out.println(yate.toString());
         System.out.println(yate2.toString());
-
+        System.out.println("Navegando en mi yate");
     }
-
-
-    
 
 }
