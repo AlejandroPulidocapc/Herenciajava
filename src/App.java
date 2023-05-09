@@ -1,6 +1,10 @@
 
+import java.util.ArrayList;
+import java.util.List;
+
 import Interlemd.Avion;
 import Interlemd.Moto;
+import Interlemd.Vehiculo;
 import Interlemd.Yate;
 
 public class App {
@@ -44,4 +48,24 @@ public class App {
         System.out.println("Navegando en mi yate");
     }
 
+List<Vehiculo> ListaVehiculos = new  ArrayList<>();
+//createMoto();
+Vehiculo vehiculo1 = new Moto("Rojo", " BMW ", "200CC", 2);
+Vehiculo vehiculo2 = new Yate("Rojo", " BMW ", "200CC", 2);
+
+
+ 
+{
+    ListaVehiculos .add(vehiculo1);
+
+ListaVehiculos .add(vehiculo2);
+for (Vehiculo objeto : ListaVehiculos )
+
+
+{
+    System.out.println(objeto.toString());
+}
+
+
+}
 }
